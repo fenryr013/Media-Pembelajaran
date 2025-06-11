@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda</title>
+    <link rel="icon" type="image/png" href="https://s7.krakenfiles.com/uploads/14-05-2025/zqYKHR3eG3/image.png">
+    <link rel="stylesheet" href="styles.css">
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+
+
+
+</head>
+<body>
+    <div class="header">
+        <img src="SMK2.png" alt="">
+        <h2>Bahasa Indonesia</h2>
+       
+        <div class="menu">
+        <a href="index.html">Beranda</a>
+        <a href="materi1.html"> Materi</a>
+        <a href="Tentang guru dan penulis.html">Tentang Guru dan Penulis</a>
+        <a href="cptp.html">Capaian Dan Tujuan</a>
+        <a href="Kontak.html">kontak</a>
+    </div>
+     
+    </div>
+   <marquee><h4>Selamat Datang!</h4></marquee>
+    <div class="materi1">
+        <h3>Penjelasan Materi:</h3>
+
+    <section class="materi" data-aos="fade-up" data-aos-duration="1000"  onclick="return validateform()">
+    <div class="card">
+     <p> <a href="materi1.html">
+        <h4><b>Pengertian Imbuhan</b></h4>
+        bunyi atau huruf yang ditambahkan pada kata dasar untuk mengubah maknanya, kelas kata, atau fungsinya. Imbuhan dapat diletakkan di awal, tengah, akhir, atau gabungan dari ketiga bagian tersebut.</a> </p>
+    </div>
+    <div class="card">
+     
+      <p><a href="materi1.html"><h4>Fungsi Imbuhan</h4>Mengubah makna kata dasar, Mengubah kelas kata dasar, Memberikan keterangan waktu dan keadaan, Memberikan nuansa atau keterangan tambahan, Membentuk kata baru.</a></p>
+    </div>
+    <div class="card">
+      <p><a href="materi1.html"><h4>Jenis Jenis Imbuhan</h4> Awalan (Prefiks) <br> Akhiran(sufiks) <br> Sisipan (Infiks) <br> Awalan-Akhiran (Konfiks)</a></p>
+    </div>
+     <div class="card">
+      <p><a href="materi1.html"><h4>Contoh dan Video Pembelajaran Imbuhan</h4></a></p>
+    </div>
+    </div>
+    <div class="capaian" data-aos="fade-up" data-aos-duration="1000">      
+        <h2> Capaian Dan Tujuan </h2>
+        <p>Disini ada capaian dan tujuan pembelajaran Imbuhan dari Teks Laporan hasil Observasi</p>
+        <button><a href="cptp.html">Menuju halaman cp & tp</a></button>
+    </div>
+    <div class="latihan" data-aos="fade-up" data-aos-duration="1000">
+      <h2>Kontak</h2>
+      <p>silahkan beri penilaian di halaman KONTAK/FEEDBACK, agar kami mengetahui apa kekurangan dan kelebihan dari Website kami.</p>
+    </div>
+    
+    <button onclick="scrollToTop()" id="backToTop" title="Kembali ke atas" >↑</button>
+
+    <footer class="atas" data-aos="fade-up" data-aos-duration="1000">
+            <div class="tentang">
+                <h2>Tentang Abdi Maulana</h2>
+                <p>Abdi Maulana adalah guru Bahasa Indonesia yang <br> berdedikasi tinggi, berkomitmen untuk memajukan <br> pendidikan dengan teknologi digital dan metode <br> pegajaran inovatif</p>
+                <a href="https://epjj.smkn2-bjm.sch.id/login/index.php"><img src="SMK2.png" alt=""></a>
+            </div>
+            <div class="list">
+                <h2>Navigasi</h2>
+                <ul>
+                    <li><a href="index.html">beranda</a></li>
+                    <li><a href="materi1.html">Materi</a></li>
+            
+                    <li><a href="cptp.html">Capaian dan tujuan pembelajaran</a></li>
+                    <li><a href="Kontak.html">Kontak</a></li>
+                </ul>
+            </div>
+            <div class="kontak">
+                <h2>Kontak & Sosial Media</h2>
+                <p>+62 812 3456 7890</p>
+                <p>abdi@smkn2bjm.sch.id</p>
+                <p>JL. H.Hasan Basri</p>
+            </div>
+            
+        </footer>
+        
+        <footer class="footerbawah">&copy; 2025 Yogi Ferdi Yansyah -SMKN2BJM. semua ini di lindungi</footer>
+ 
+       <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script> 
+<script src="java.js"></script>
+<script>
+  // Tampilkan tombol saat scroll ke bawah 200px
+  window.onscroll = function () {
+    let btn = document.getElementById("backToTop");
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+      btn.style.display = "block";
+    } else {
+      btn.style.display = "none";
+    }
+  };
+
+  // Fungsi scroll ke atas dengan smooth
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+
+</body>
+</html>
